@@ -5,9 +5,9 @@ import { BsArrowUpSquareFill } from "react-icons/bs";
 
 const Navigation = () => {
   return (
-    <header className="flex justify-between py-4 px-11 bg-black">
+    <header className="flex justify-between py-4 px-11 bg-black select-none">
       <nav className="flex items-center gap-5">
-        <div className="before:content-['NETFLIX'] mr-4 text-3xl text-rose-600 font-medium "></div>
+        <div className="before:content-['NETFLUX'] mr-4 text-3xl text-rose-600 font-medium "></div>
         <ul className="flex gap-4 cursor-pointer text-sm font-medium">
           <li
             tabIndex="0"
